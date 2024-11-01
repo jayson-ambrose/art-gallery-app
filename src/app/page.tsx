@@ -9,7 +9,9 @@ export default function Home() {
       <div>
         <img className="w-96 h-auto" src="https://cdn.imgchest.com/files/my2pclnb8b7.png"/>
       </div>
-      <p className="text-4xl">Contact Us</p>
+      <div>
+        <p className="text-4xl">Contact Us</p>
+      </div>
       <p>For more information on any of our pieces, please contact us at ambrosearts@gmail.com</p>
     </div>
   );
