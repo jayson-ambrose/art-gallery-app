@@ -11,15 +11,3 @@ body {
   background-color: #232238;
   color: #fff;
 }
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
-}
-
-@layer base {
-  :root {
-    --radius: 0.5rem;
-  }
-}
