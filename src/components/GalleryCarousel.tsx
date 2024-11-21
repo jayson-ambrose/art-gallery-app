@@ -17,13 +17,15 @@ export default function GalleryCarousel () {
 
   return (
     <>
-    <Carousel className="w-full max-w-3xl">
-      <CarouselContent className="w-full">
+    <Carousel className="w-10/12 h-auto">
+      <CarouselContent>
         {carouselData.map((item) => {
             return(
             <CarouselItem key={item.id} className='basis-1/3'>
+              <div className="flex flex-col items-center overflow-hidden">
                 <p>{item.id}</p>
                 <img src={item.src}/>
+              </div>  
             </CarouselItem>)
             })}
       </CarouselContent>
